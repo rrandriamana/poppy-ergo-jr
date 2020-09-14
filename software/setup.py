@@ -14,7 +14,7 @@ setup(name='poppy-ergo-jr',
       version=version(),
       packages=find_packages(),
 
-      install_requires=['pypot >= 4.0.0', 'hampy'],
+      install_requires=['pypot @ git+https://github.com/rrandriamana/pypot@scratch#egg=pypot', 'hampy'],
 
       include_package_data=True,
       exclude_package_data={'': ['README', '.gitignore']},
